@@ -1,0 +1,124 @@
+.grid-container4{
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+    
+    
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+
+}
+
+.grid-container4 >div{
+    background-color: white;
+   
+    padding:15px ;
+    margin: 15px;
+    
+
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+    
+    
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+
+}
+
+.grid-container3 >div{
+    background-color: white;
+   
+    padding:15px ;
+    margin: 15px;
+    
+
+}
+
+h4{
+    color: white;
+}
+
+.Left{
+    text-align: left;
+}
+.Right{
+    text-align: right;
+}
+.Center{
+    text-align: center;
+}
+.Justify{
+    text-align: justify;
+}
+
+h6{
+text-align: center;
+}
+
+.overline{
+    text-decoration: overline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration: underline;
+}
+.overline-underline{
+    text-decoration: overline underline ;
+}
+
+
+
+.uppercase{
+    text-decoration: uppercase;
+}
+.lowercase{
+    
+    text-decoration: lowercase;
+}
+.capitalize{
+    text-decoration: capitalize;
+}
+
+.grid-container5{
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+    
+    
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+
+}
+
+.grid-container5 >div{
+    background-color: white;
+   
+    padding:15px ;
+    margin: 15px;
+    
+
+}
+
+
+.Serif{
+font-family: serif;
+}
+
+.Sans-Serif{
+    font-family: sans-serif;
+}
+.Monospace{
+    font-family: monospace;
+}
+.Cursive{
+    font-family: cursive;
+}
+
+.Fantasy{
+    font-family: fantasy;
+}

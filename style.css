@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    background-color: gray;
+    overflow: auto;
+}
+
+.navbar a{
+    float: left;
+    padding: 12px;
+    color:black;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: green;
+}
+
+.active{
+    background-color: green;
+}
+
+.responsive{
+    display:none;
+}
+
+
+@media(max-width:600px){
+    .responsive{
+        display: block;
+        float: right;
+        padding: 12%;
+    }
+    a{
+        display: none;
+    }
+}
+
+.introduccion{
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
